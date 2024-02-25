@@ -1,6 +1,10 @@
 import tkinter
 import customtkinter
+from customtkinter import *
 
-TA GUEULE
-print('gauche cest pas droite')
-print('droite cest pas gauche')
+
+app =CTk()
+app.geometry("600x500")
+app.title("CTk example")
+
+app.mainloop()
